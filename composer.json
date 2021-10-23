@@ -1,0 +1,27 @@
+{
+  "name": "lpagedev/slim-cors-middleware",
+  "type": "library",
+  "description": "Simplify CORS handling",
+  "keywords": ["slim","php","cors","middleware"],
+  "homepage": "https://github.com/lpagedev/slim-cors-middleware",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Levi Page",
+      "email": "levipage@gmail.com",
+      "homepage": "https://lpage.dev",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "slim/slim": "^4.9.0",
+    "slim/psr7": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "lpagedev\\Middleware\\": "src/"
+    }
+  }
+}
